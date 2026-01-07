@@ -1,0 +1,26 @@
+{
+  "name": "api-resilience-wrapper",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Sistema robusto de gestión de peticiones HTTP con reintentos automáticos, rate limiting, cola de prioridades y monitoreo en tiempo real.",
+  "main": "ApiWrapper.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "api",
+    "wrapper",
+    "resilience",
+    "retry",
+    "rate-limiting",
+    "queue",
+    "http"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^7.3.1"
+  }
+}

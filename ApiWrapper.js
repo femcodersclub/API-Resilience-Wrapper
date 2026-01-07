@@ -8,10 +8,10 @@
  */
 
 import RetryManager from './RetryManager.js';
-import TimeoutController from '../utils/TimeoutController.js';
+import TimeoutController from './TimeoutController.js';
 import RateLimiter from './RateLimiter.js';
 import RequestQueue from './RequestQueue.js';
-import EventEmitter from '../utils/EventEmitter.js';
+import EventEmitter from './EventEmitter.js';
 
 class ApiWrapper extends EventEmitter {
   constructor(options = {}) {

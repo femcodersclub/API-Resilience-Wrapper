@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>API Resilience Wrapper - Dashboard</title>
+  <link rel="icon" href="https://femcodersclub.com/favicon.ico">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-container">
+    <div class="sidebar">
+      <div class="logo">
+        <h1>🚀 API Resilience</h1>
+        <p class="subtitle">Dashboard de Monitoreo</p>
+      </div>
+      
+      <div class="test-controls">
+        <h3>🧪 Controles de Prueba</h3>
+        
+        <div class="control-group">
+          <button id="testSingleRequest" class="btn btn-primary">
+            Petición Simple
+          </button>
+          <button id="testMultipleRequests" class="btn btn-primary">
+            10 Peticiones Paralelas
+          </button>
+          <button id="testHighPriority" class="btn btn-warning">
+            Petición Alta Prioridad
+          </button>
+        </div>
+
+        <div class="control-group">
+          <h4>Promise Methods</h4>
+          <button id="testPromiseAll" class="btn btn-secondary">
+            Promise.all()
+          </button>
+          <button id="testPromiseAllSettled" class="btn btn-secondary">
+            Promise.allSettled()
+          </button>
+          <button id="testPromiseRace" class="btn btn-secondary">
+            Promise.race()
+          </button>
+          <button id="testPromiseAny" class="btn btn-secondary">
+            Promise.any()
+          </button>
+        </div>
+
+        <div class="control-group">
+          <h4>Escenarios de Error</h4>
+          <button id="testRetry" class="btn btn-danger">
+            Forzar Reintentos
+          </button>
+          <button id="testTimeout" class="btn btn-danger">
+            Forzar Timeout
+          </button>
+          <button id="testRateLimit" class="btn btn-danger">
+            Saturar Rate Limit
+          </button>
+        </div>
+
+        <div class="control-group">
+          <h4>API de Prueba</h4>
+          <input type="text" id="apiEndpoint" 
+                 placeholder="https://jsonplaceholder.typicode.com/posts/1"
+                 class="input-text">
+          <button id="testCustomEndpoint" class="btn btn-primary">
+            Probar Endpoint
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="main-content">
+      <div id="monitorContainer"></div>
+    </div>
+  </div>
+
+  <script type="module" src="./app.js"></script>
+</body>
+</html>
