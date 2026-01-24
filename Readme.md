@@ -2,7 +2,7 @@
 
 Sistema robusto de gestión de peticiones HTTP con reintentos automáticos, rate limiting, cola de prioridades y monitoreo en tiempo real.
 
-![Dashboard Preview](./docs/dashboard-preview.png)
+![Dashboard Preview](./img/api-resilience-monitor.png)
 
 ## 📚 Proyecto Educativo - FemCoders Club
 
@@ -414,9 +414,10 @@ Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más det
 
 ## 👥 Autores
 
-**FemCoders Club** - *Comunidad de mujeres en tecnología*
+Proyecto creado por **Irina Ichim** (cofundadora de FemCoders Club).
 
-- Website: [femcoders.club](https://femcoders.club)
+- LinkedIn: [Irina Ichim](https://www.linkedin.com/in/irina-ichim-desarrolladora/)
+- Website: [femcodersclub.com](https://femcodersclub.com)
 - GitHub: [@femcodersclub](https://github.com/femcodersclub)
 
 ## 🙏 Agradecimientos
@@ -430,9 +431,8 @@ Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más det
 - [MDN - Asynchronous JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous)
 - [JavaScript.info - Promises, async/await](https://javascript.info/async)
 - [Jake Archibald - In The Loop](https://www.youtube.com/watch?v=cCOL7MC4Pl0)
-- [Blog Post en FemCoders Club](https://femcoders.club/blog/event-loop-asincronia)
+- [Blog Post en FemCoders Club](https://femcodersclub.com/blog/event-loop-asincronia)
 
 ---
 
-**¿Preguntas o sugerencias?** Abre un issue o únete a nuestra comunidad en [FemCoders Club](https://femcodersclub.com
-)
+**¿Preguntas o sugerencias?** Abre un issue o únete a nuestra comunidad en [FemCoders Club](https://femcodersclub.com)
